@@ -7,15 +7,15 @@
     <title>Details</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body class="d-flex flex-column" style="min-height: 100vh;">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <div class="container-fluid fs-5 justify-content-between">
               <div class="">
-                <a class="navbar-brand" href="#">
-                  <img src="./assets/image/Logo Amazing Events.png" alt="" width="200" >
+                <a class="navbar-brand" href="../index.html">
+                  <img src="../assets/image/Logo Amazing Events.png" alt="" width="200" >
                 </a>
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,27 +23,47 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item ">
-                    <a class="nav-link px-2 mx-2 active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link px-2 mx-2" href="#">Upcoming Events</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link px-2 mx-2" href="#">Past Events</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link px-2 mx-2" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link px-2 mx-2" href="#">Stats</a>
-                  </li>
-                </ul>
+                    <li class="nav-item ">
+                      <a class="nav-link px-2 mx-2 " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link px-2 mx-2" href="./upcomingEvents.html">Upcoming Events</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link px-2 mx-2" href="./pastEvents.html">Past Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-2 mx-2" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link px-2 mx-2" href="./stats.html">Stats</a>
+                    </li>
+                  </ul>
               </div>
             </div>
           </nav>
     </header>
     <main>
+        <div class="container  bg-dark bg-gradient my-4 p-4">
+            <div class="detailCtn d-flex gap-3" >
+                <div class=" detailCtn-image bg-secondary p-4">
+                </div>
+                <div class="container-fluid bg-secondary bg-opacity-75 right d-flex flex-column align-items-center p-4 text-light">
+                    <h1 class="mb-2">TÍTULO</h1>
+                    <hr class="border border-light w-100 border-1 opacity-50">
+                    <h2 class="align-self-start">Name</h2>
+                    <h3 class="align-self-start">Date</h3>
+                    <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus veniam aliquid, sed dolorum quidem exercitationem autem dolore officia repellendus.</p>
+                    <div class="d-flex gap-3">
+                        <h4 class="align-self-start">Place</h4>
+                        <h4 class="align-self-start">Capacity</h4>
+                    </div>
+                    <h5>Assistance or estimate</h5>
+                    <h5 class="align-self-end">Price</h5>
+                    
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="bg-black d-flex justify-content-between align-items-center px-4 mt-auto">
       <div class="p-2 d-flex">
