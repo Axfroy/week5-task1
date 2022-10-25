@@ -26,9 +26,43 @@
     color: rgb(192, 17, 90) !important;
 }
 
+.form-select{
+    display: none;
+}
+.search-btn:hover{
+    background-color: rgb(192, 17, 90) !important;
+}
+
+.detailCtn-image{
+    background-image: url(../assets/image/Concierto\ de\ musica1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: auto;
+}
+
+
+.form-ctn{
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1024px){
     .card{
         margin: 1rem 0 !important;
+    }
+    .form-check-ctn{
+        display: none;
+    }
+    .form-select{
+        display: inline-block;
+    }
+    .detailCtn{
+        flex-direction: column !important;
+    }
+    .detailCtn-image{
+        width: auto;
+        height: 30vh;
     }
 }
 @media screen and (min-width: 1024px){
